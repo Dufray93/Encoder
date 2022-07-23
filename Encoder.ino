@@ -19,7 +19,7 @@ byte colPins[COLS] = {8, 7, 6}; //connect to the column pinouts of the keypad
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 
-char clave[7] = {'8','7','6','1','8','9','#'};
+char clave[7] = {'1','2','3','4','5','6','#'};
 char tecla[7]={'0','0','0','0','0','0','#'};
 int pos=0;
 int intentos = 0;
